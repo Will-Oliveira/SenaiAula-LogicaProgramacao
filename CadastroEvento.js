@@ -14,7 +14,7 @@ let dataEvento = new Date('03/30/2022')
 let dataHoje = new Date()
 
 if(dataEvento > dataHoje){
-    console.log("Olá, o evento ocorrerá dia: " + (new Intl.DateTimeFormat('pt-BR').format(dataEvento) + "\nFavor, insira sua data de nascimento a seguir:\n"))
+    console.log("Olá, o evento ocorrerá dia: " + (new Intl.DateTimeFormat('pt-BR', {day: 'numeric', month: 'long', year: 'numeric'}).format(dataEvento) + "\nFavor, insira sua data de nascimento a seguir:\n"))
 } else {
     console.log("Que pena, o evento ocorreu dia:", dataEvento, "Acompanhe nosso site que em breve, teremos outros eventos. \n")
 }
