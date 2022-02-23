@@ -33,7 +33,7 @@ function idade(d1, d2) {
   else{
 	  console.log("Cadastro não efetuado. Este evento é voltado para maiores de 18 anos.\n")
   }
-
+    console.log("Abaixo, segue a lista de particiantes que irão participar da palestra, junto com você:")
     let listaParticipantes = ["Miguel", "Arthur", "Gael", "Heitor", "Theo", "Davi", "Gabriel", "Bernardo", "Samuel", "João Miguel", "Helena", "Alice", "Maria Alice"]
     quantidade = listaParticipantes.length;
     let lugares = 100
