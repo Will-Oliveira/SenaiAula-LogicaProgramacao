@@ -7,18 +7,18 @@
 // linha 50, altere a quantidade de lugares que será feita a condicional
 
 // algumas observações e devidos créditos:
-// as linhas 18 e 20 contém o código que usei para sanar o problema de formatação para pt-BR; pesquisei e achei a solução no seguinte link: https://www.youtube.com/watch?v=2EAs2BH3Y_4&t=79s
-// nas linhas 23, 24, 25 e 26; devido ainda não ter chegado no módulo para estudar essa função, pesquisei (MUITO) e encontrei um código bem pequeno, no link abaixo que sanou meu problema: 
+// as linhas 18 e 21 contém o código que usei para sanar o problema de formatação para pt-BR; pesquisei e achei a solução no seguinte link: https://www.youtube.com/watch?v=2EAs2BH3Y_4&t=79s
+// nas linhas 24, 25, 26 e 27; devido ainda não ter chegado no módulo para estudar essa função, pesquisei (MUITO) e encontrei um código bem pequeno, no link abaixo que sanou meu problema: 
 // https://pt.stackoverflow.com/questions/93741/calcular-idade-em-anos-usando-javascript
 
 let dataEvento = new Date('03/30/2022')
 let dataHoje = new Date()
 
-if(dataEvento > dataHoje){
-    console.log("Olá, hoje é " + (new Intl.DateTimeFormat('pt-BR', {day: 'numeric', month: 'long', year: 'numeric'}).format(dataHoje)) + ".\nA palestra será: " + (new Intl.DateTimeFormat('pt-BR', {day: 'numeric', month: 'long', year: 'numeric'}).format(dataEvento) + ".\nFavor, insira sua data de nascimento a seguir:\n"))
-    
-} else {
-    console.log("Que pena, o evento ocorreu dia:" + (new Intl.DateTimeFormat('pt-BR', {day: 'numeric', month: 'long', year: 'numeric'}).format(dataEvento) + "\nMas não se preocupe! Acompanhe nosso site que em breve, teremos outros eventos. \n"))
+    if(dataEvento > dataHoje){
+        console.log("Olá, hoje é " + (new Intl.DateTimeFormat('pt-BR', {day: 'numeric', month: 'long', year: 'numeric'}).format(dataHoje)) + ".\nA palestra será: " + (new Intl.DateTimeFormat('pt-BR', {day: 'numeric', month: 'long', year: 'numeric'}).format(dataEvento) + ".\nFavor, insira sua data de nascimento a seguir:\n"))
+}
+    else {
+        console.log("Que pena, o evento ocorreu dia:" + (new Intl.DateTimeFormat('pt-BR', {day: 'numeric', month: 'long', year: 'numeric'}).format(dataEvento) + "\nMas não se preocupe! Acompanhe nosso site que em breve, teremos outros eventos. \n"))
 }
 
 function idade(d1, d2) {
@@ -29,11 +29,11 @@ function idade(d1, d2) {
 
 let dataAniversario = (idade(new Date('03/10/2000')))
 
-  if(dataAniversario > 17){
-	  console.log("Parabéns! Você atende a idade mínima para se cadastrar. A seguir, coloque seu nome na lista de participantes.\n") 
+    if(dataAniversario > 17){
+        console.log("Parabéns! Você atende a idade mínima para se cadastrar. A seguir, coloque seu nome na lista de participantes.\n") 
 }
-  else{
-	  console.log("Cadastro não efetuado. Este evento é voltado para maiores de 18 anos.\n")
+    else{
+        console.log("Cadastro não efetuado. Este evento é voltado para maiores de 18 anos.\n")
 }
 
 let seuNome = "William"
@@ -49,7 +49,7 @@ let lugares = 100
 
     if(lugares <= 100){
         console.log("Aproveite que ainda temos", lugares-quantidade, "vagas disponíveis.")
-    }
+}
     else{
         console.log("Cadastro para o evento não realizado devido excesso de participantes!")
-    }
+}
