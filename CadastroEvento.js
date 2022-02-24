@@ -15,7 +15,7 @@ let dataEvento = new Date('03/30/2022')
 let dataHoje = new Date()
 
     if(dataEvento > dataHoje){
-        console.log("Olá, hoje é " + (new Intl.DateTimeFormat('pt-BR', {day: 'numeric', month: 'long', year: 'numeric'}).format(dataHoje)) + ".\nA palestra será: " + (new Intl.DateTimeFormat('pt-BR', {day: 'numeric', month: 'long', year: 'numeric'}).format(dataEvento) + ".\nFavor, insira sua data de nascimento a seguir:\n"))
+        console.log("\nOlá, hoje é " + (new Intl.DateTimeFormat('pt-BR', {day: 'numeric', month: 'long', year: 'numeric'}).format(dataHoje)) + ".\nNossa palestra será dia " + (new Intl.DateTimeFormat('pt-BR', {day: 'numeric', month: 'long', year: 'numeric'}).format(dataEvento) + ".\nFavor, insira sua data de nascimento para prosseguirmos com o cadastro:\n"))
 }
     else {
         console.log("Que pena, o evento ocorreu dia:" + (new Intl.DateTimeFormat('pt-BR', {day: 'numeric', month: 'long', year: 'numeric'}).format(dataEvento) + "\nMas não se preocupe! Acompanhe nosso site que em breve, teremos outros eventos. \n"))
@@ -48,7 +48,7 @@ let lugares = 100
         console.log("\n"+"A quantidade de participantes cadastrados no momento são de:", quantidade, "pessoas.")
 
     if(lugares <= 100){
-        console.log("Aproveite que ainda temos", lugares-quantidade, "vagas disponíveis.")
+        console.log("Aproveite que ainda temos", lugares-quantidade, "vagas disponíveis, e chame seus amigos para participar, também!")
 }
     else{
         console.log("Cadastro para o evento não realizado devido excesso de participantes!")
