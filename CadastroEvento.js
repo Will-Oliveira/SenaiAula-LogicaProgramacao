@@ -53,3 +53,7 @@ let lugares = 100
     else{
         console.log("Cadastro para o evento não realizado devido excesso de participantes!")
 }
+
+// o não consegui fazer neste código:
+// responsividade para inserir dados enquanto escrevo e ele se adaptar ao que fosse inserido: exemplo, ao colocar a idade,
+// ir direto pra mensagem que não é  possível se cadastrar, ao invés de informar a lista de participantes, mesmo sendo barrado pela idade.
