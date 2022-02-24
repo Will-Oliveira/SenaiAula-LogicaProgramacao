@@ -1,10 +1,10 @@
 // para verificar o código mudando de acordo com os devidos input, é preciso mudar valores nas linhas descritas abaixo
 // linha 14, altera a data que o evento irá acontecer - destaco que a formatação da data está esabelecida em: "mês/dia/ano"
-// linha 29, altera a data de nascimento - destaco que a formatação da data está esabelecida em: "mês/dia/ano"
-// linha 38, coloque seu nome para incluir na listagem de participantes
-// linha 41, para incluir um nome extra na lista (ou retirar), é preciso que escreva o nome entre aspas e inserir virgula: "nome da pessoa", isso irá afetar a soma!
-// linha 43, altere a quantidade de lugares que terá o evento
-// linha 49, altere a quantidade de lugares que será feita a condicional
+// linha 30, altera a data de nascimento - destaco que a formatação da data está esabelecida em: "mês/dia/ano"
+// linha 39, coloque seu nome para incluir na listagem de participantes
+// linha 42, para incluir um nome extra na lista (ou retirar), é preciso que escreva o nome entre aspas e inserir virgula: "nome da pessoa", isso irá afetar a soma!
+// linha 44, altere a quantidade de lugares que terá o evento
+// linha 50, altere a quantidade de lugares que será feita a condicional
 
 // algumas observações e devidos créditos:
 // as linhas 18 e 20 contém o código que usei para sanar o problema de formatação para pt-BR; pesquisei e achei a solução no seguinte link: https://www.youtube.com/watch?v=2EAs2BH3Y_4&t=79s
