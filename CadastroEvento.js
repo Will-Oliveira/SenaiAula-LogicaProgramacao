@@ -6,7 +6,7 @@
 // linha 44, altere a quantidade de lugares que terá o evento
 // linha 50, altere a quantidade de lugares que será feita a condicional
 
-// algumas observações e devidos créditos:
+// algumas observações, considerações e devidos créditos:
 // as linhas 18 e 21 contém o código que usei para sanar o problema de formatação de data para pt-BR; pesquisei e achei a solução no seguinte link: https://www.youtube.com/watch?v=2EAs2BH3Y_4&t=79s
 // nas linhas 24, 25, 26 e 27; devido ainda não ter chegado no módulo para estudar essa função, pesquisei (MUITO) e encontrei um código bem pequeno, no link abaixo que sanou meu problema: 
 // https://pt.stackoverflow.com/questions/93741/calcular-idade-em-anos-usando-javascript
